@@ -1,0 +1,6 @@
+#include<stdio.h>
+void fun1()
+{
+	extern int a;
+	printf("\nExtern value is call from global variable=%d",a);
+}

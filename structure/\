@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<string.h>
+struct cdac
+{
+	int Marks[10];
+	char student[20];
+
+}dssd,desd,dac;
+void main()
+{
+	int i;
+	for(i=0;i<10;i++)
+	{
+		printf("Enter a Name of DESD student");
+		scanf("%s",desd.student);
+		printf("Enter a Mark of Student=");
+		scanf("%d",desd.Marks);
+	}
+	 for(i=0;i<10;i++)
+        {
+                printf("\nname:%s",desd.student);
+		printf("\nmarks:%ld",desd.Marks);
+               
+                
+                
+        }
+
+}
